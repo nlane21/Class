@@ -1,0 +1,14 @@
+num = input("Enter a number ")
+if int(num)%2==0:
+  print(str(num) + " is a even number")
+else:
+  print(str(num) + " is a odd number")
+if int(num)%4==0:
+  print(str(num) + " is a multiple of 4")  
+
+num2 = input("Enter number to check ")
+check = input("Enter number to divide by ")
+if int(num2)%int(check)==0:
+  print(str(num2) + " divides evenly by " + str(check))
+else:
+  print(str(num2) + "  does not divide evenly by " + str(check))
